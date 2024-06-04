@@ -1,0 +1,38 @@
+:root{ 
+  font-size: 62.5%;
+}
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --brand-color: #7CA2F4;
+  --dark-10: #121214;
+  --dark-20: #F3F7FF;
+  --dark-30: #FFFFFF;
+  font-family: 'Archivo';
+  font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+}
+input, textarea, button, fieldset {
+  border: none;
+}
+body{
+  background-color: var(--dark-20);
+}
+#top-banner {
+  text-align: center;
+  padding: 1.9rem 0;
+}
+#top-banner span {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 2.611rem;
+}
+#banner {
+  background-image: url('./assets/image-michael-jordan.png');
+  overflow: hidden;
+}
