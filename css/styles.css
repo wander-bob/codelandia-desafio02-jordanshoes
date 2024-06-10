@@ -21,11 +21,12 @@ input, textarea, button, fieldset {
   border: none;
 }
 body{
-  background-color: var(--dark-20);
+  background-color: var(--dark-30);
 }
 #top-banner {
   text-align: center;
   padding: 1.9rem 0;
+  background-color: var(--dark-20);
 }
 #top-banner span {
   font-size: 2.4rem;
@@ -33,6 +34,102 @@ body{
   line-height: 2.611rem;
 }
 #banner {
-  background-image: url('./assets/image-michael-jordan.png');
-  overflow: hidden;
+  background-image: url('../assets/image-michael-jordan.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 40rem;
+}
+#banner #banner-content {
+  color: var(--dark-30);
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15%;
+  margin-top: 4%;
+  gap: 4rem;
+}
+#banner #banner-content .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+#banner #banner-content .logo span{
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+}
+#banner #banner-content .logo img{
+  height: 3.8rem;
+  width:  3.5rem;
+}
+#banner #banner-content .banner-presentation {
+  max-width: 55rem;
+}
+#banner #banner-content .banner-presentation h2 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 3.4rem;
+}
+#banner #banner-content .banner-presentation p {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin-top: 2rem;
+}
+main {
+  padding-block: 8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .content-presentation {
+  max-width: 59.2rem;
+  margin: 0 auto;
+}
+
+main .content-presentation h1 {
+  margin-bottom: 2.4rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 3.4rem;
+  text-align: center;
+}
+
+main .content-presentation p {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  text-align: center;
+}
+
+main .show-room {
+  margin-top: 7.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3.2rem;
+  row-gap: 4rem;
+}
+.card .img-container{
+  background: var(--dark-20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 3.2rem;
+  width: 100%;
+}
+.card h3 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: var(--dark-10);
+  margin-top: 2.4rem;
+}
+.card p.category {
+  color: var(--brand-color);
+  margin-top: 1.2rem;
+}
+.card h2.price {
+  margin-top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.5rem;
 }
