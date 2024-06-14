@@ -137,3 +137,22 @@ main .show-room {
   font-weight: 500;
   line-height: 2.5rem;
 }
+@media (min-width: 768px){
+  main {
+    padding: 5.6rem 3.2rem;
+  }
+  main .show-room {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 375px){
+  #banner {
+    background-position: -17.5rem;   
+  }
+  main {
+    padding: 5.6rem 3.2rem;
+  }
+  main .show-room {
+    grid-template-columns: 1fr;
+  }
+}
