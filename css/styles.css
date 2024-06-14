@@ -34,10 +34,14 @@ body{
   line-height: 2.611rem;
 }
 #banner {
-  background-image: url('../assets/image-michael-jordan.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
   min-height: 40rem;
+  background-image: url('../assets/image-michael-jordan.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#banner .banner-mask {
+  height: 40rem;
+  background: linear-gradient(0deg, #121214bf 0%, #121214bf 100%);
 }
 #banner #banner-content {
   color: var(--dark-30);
