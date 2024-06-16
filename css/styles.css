@@ -137,7 +137,10 @@ main .show-room {
   font-weight: 500;
   line-height: 2.5rem;
 }
-@media (min-width: 768px){
+@media (min-width: 767px){
+  #banner {
+    background-position: unset !important;
+  }
   main {
     padding: 5.6rem 3.2rem;
   }
@@ -147,7 +150,7 @@ main .show-room {
 }
 @media (min-width: 375px){
   #banner {
-    background-position: -17.5rem;   
+    background-position-x: -17.5rem;
   }
   main {
     padding: 5.6rem 3.2rem;
